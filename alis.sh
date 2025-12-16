@@ -1723,7 +1723,6 @@ function display_manager_lxdm() {
     arch-chroot "${MNT_DIR}" systemctl enable lxdm.service
 }
 
-# @deprecated: prefer to install packages after base system installation
 function packages() {
     print_step "packages()"
 
@@ -1905,6 +1904,7 @@ function main() {
         execute_step "desktop_environment"
         execute_step "display_manager"
     fi
+    execute_step "packages"
     if [ "$PROVISION" == "true" ]; then
         execute_step "provision"
     fi
