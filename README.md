@@ -1,5 +1,10 @@
 # Arcana based on alis scripts
 
+<p align="center">
+  <img src="arcana.png" alt="Arcana" width="600" />
+</p>
+
+
 ![Arch Linux](https://raw.githubusercontent.com/picodotdev/alis/main/images/archlinux-badge.svg)
 ![Bash](https://raw.githubusercontent.com/picodotdev/alis/main/images/sh-bash-badge.svg)
 ![Shellcheck](https://github.com/picodotdev/alis/actions/workflows/shellcheck.yml/badge.svg)
