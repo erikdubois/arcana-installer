@@ -49,6 +49,15 @@ I want Xfce4 and Chadwm as my base of operations.
   <img src="arcana-chadwm.png" alt="Arcana-chadwm" width="600" />
 </p>
 
+# More screenshots
+
+<p align="center">
+  <img src="arcana-plasma.png" alt="Arcana-plasma" width="600" />
+</p>
+
+<p align="center">
+  <img src="arcana-chadwm-1.png" alt="arcana-chadwm-1.png" width="600" />
+</p>
 
 ![Arch Linux](https://raw.githubusercontent.com/picodotdev/alis/main/images/archlinux-badge.svg)
 ![Bash](https://raw.githubusercontent.com/picodotdev/alis/main/images/sh-bash-badge.svg)
