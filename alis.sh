@@ -287,7 +287,7 @@ function facts() {
                 DISPLAY_DRIVER="amdgpu"
                 ;;
             "nvidia" )
-                DISPLAY_DRIVER="nvidia-open"
+                DISPLAY_DRIVER="nvidia-open-dkms"
                 ;;
         esac
     fi
