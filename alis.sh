@@ -302,12 +302,6 @@ function facts() {
         "paru" )
             AUR_COMMAND="paru"
             ;;
-        "yay-bin" )
-            AUR_COMMAND="yay"
-            ;;
-        "paru-bin" | *)
-            AUR_COMMAND="paru"
-            ;;
     esac
 
     if [ "$PLYMOUTH_THEME" == "auto" ]; then
