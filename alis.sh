@@ -173,7 +173,7 @@ function check_variables() {
     check_variables_boolean "PACMAN_PARALLEL_DOWNLOADS" "$PACMAN_PARALLEL_DOWNLOADS"
     check_variables_list "KERNELS" "$KERNELS" "linux-lts linux-lts-headers linux-hardened linux-hardened-headers linux-zen linux-zen-headers" "false" "false"
     check_variables_list "KERNELS_COMPRESSION" "$KERNELS_COMPRESSION" "auto gzip bzip2 lzma xz lzop lz4 zstd" "true" "true"
-    check_variables_list "AUR_PACKAGE" "$AUR_PACKAGE" "paru-bin yay-bin paru yay aurman" "true" "true"
+    check_variables_list "AUR_PACKAGE" "$AUR_PACKAGE" "paru yay aurman" "true" "true"
     check_variables_list "DISPLAY_DRIVER" "$DISPLAY_DRIVER" "auto intel amdgpu ati nvidia-open nvidia-open-dkms nvidia-open-lts nvidia-580xx-dkms nvidia-575xx-dkms nvidia-550xx-dkms nvidia-535xx-dkms nvidia-510xx-dkms nvidia-470xx-dkms nvidia-430xx-dkms nvidia-390xx-dkms nvidia-340xx-dkms nouveau" "false" "true"
     check_variables_boolean "KMS" "$KMS"
     check_variables_boolean "FASTBOOT" "$FASTBOOT"
