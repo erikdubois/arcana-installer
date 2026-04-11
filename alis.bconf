@@ -76,7 +76,7 @@ KERNELS_PARAMETERS="!iommu=soft !nvme_load=YES"
 
 # aur
 ## AUR_PACKAGE the AUR command to install in case some package requires it, only is installed if necessary.
-AUR_PACKAGE="!paru !yay !aurman" # (single)
+AUR_PACKAGE="!paru yay !aurman" # (single)
 
 # display driver
 ## DISPLAY_DRIVER installs a specific display driver, you must know which brand is the graphics hardware.
